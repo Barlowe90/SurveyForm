@@ -1,0 +1,39 @@
+body{
+    font-size: 1rem;
+    background-color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+#title{
+    font-family: Verdana;
+    font-size: 2rem;
+}
+#description{
+    font-style: italic;
+}
+#survey-form{
+    background-color: white;
+    text-align: left;
+}
+#submit{
+    background-color: green;
+    color: white;
+}
+input, textarea, button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+}
+.radiogenero{
+    display: inline-block;
+}
+textarea{
+    resize: vertical;
+}
